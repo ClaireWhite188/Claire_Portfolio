@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Claire White — UX/UI design, development, and creative work." />
+  <meta name="theme-color" content="#f7f5f1" />
+  <title>Claire White | Design & Development</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="projects.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header"><div class="wrap header-inner">
+    <a class="brand" href="#home" aria-label="Claire White, home">CW<span class="brand-dot">.</span></a>
+    <button id="menu-toggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu <span aria-hidden="true">☰</span></button>
+    <nav id="main-nav" aria-label="Main navigation"><a href="#home">Home</a><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a><a class="nav-resume" href="assets/Claire_White_Resume.pdf" target="_blank" rel="noopener">Resume ↗</a></nav>
+  </div></header>
+  <main id="main">
+    <section id="home" class="hero wrap"><div class="hero-copy"><p class="eyebrow"><span class="status-dot"></span> DESIGN · DEVELOPMENT · EDUCATION</p><h1>Thoughtful design.<br><em>Useful experiences.</em></h1><p class="hero-lead">I'm Claire, a designer, developer, and educator who turns complex ideas into clear, engaging digital experiences.</p><div class="actions"><a class="button primary" href="#work">Explore my work <span aria-hidden="true">↗</span></a><a class="button secondary" href="#about">Get to know me</a></div></div><div class="hero-art" aria-hidden="true"><div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="art-center"><span>create</span><span>with</span><strong>purpose.</strong></div><div class="art-tag tag-top">UX / UI</div><div class="art-tag tag-bottom">&lt;code /&gt;</div></div></section>
+    <section class="marquee" aria-label="Specialties"><div class="wrap specialty-list"><span>USER EXPERIENCE</span><span>✳</span><span>WEB DEVELOPMENT</span><span>✳</span><span>VISUAL DESIGN</span><span>✳</span><span>PROBLEM SOLVING</span></div></section>
+    <section id="work" class="section wrap"><div class="section-heading"><div><p class="eyebrow">01 / PORTFOLIO</p><h2>Selected <em>work.</em></h2></div><p>A mix of user-centered design, creative problem-solving, and technical projects.</p></div><div class="filter-row" role="group" aria-label="Filter projects"><button class="filter active" data-filter="All" aria-pressed="true">All work</button><button class="filter" data-filter="UX/UI" aria-pressed="false">UX/UI</button><button class="filter" data-filter="Development" aria-pressed="false">Development</button><button class="filter" data-filter="Graphic Design" aria-pressed="false">Graphic design</button><button class="filter" data-filter="Education" aria-pressed="false">Education</button></div><div id="project-grid" class="project-grid" aria-live="polite"></div><p id="project-empty" class="empty" hidden>No projects in this category yet.</p></section>
+    <section id="about" class="section about-section"><div class="wrap about-grid"><div><p class="eyebrow">02 / ABOUT</p><h2>Creative thinking meets <em>technical skill.</em></h2><div class="about-decoration" aria-hidden="true">✳</div></div><div class="about-text"><p>I'm a designer, developer, and educator with experience in UX/UI design, graphic design, web development, and teaching. I enjoy making complicated ideas easier to understand and use.</p><p>I'm currently a Teacher and Department Head Assistant at Vanguard Academy while pursuing a bachelor's degree in Software Engineering at Western Governors University (expected 2027).</p><h3>What I work with</h3><div class="skill-list"><span>UX/UI Design</span><span>Graphic Design</span><span>Web Development</span><span>HTML & CSS</span><span>JavaScript</span><span>Python</span><span>SEO & Marketing</span><span>Curriculum Development</span><span>Project Management</span></div><a class="text-link" href="assets/Claire_White_Resume.pdf" target="_blank" rel="noopener">View my resume <span aria-hidden="true">↗</span></a></div></div></section>
+    <section id="contact" class="section wrap contact-section"><p class="eyebrow">03 / CONTACT</p><h2>Have something in <em>mind?</em></h2><p>I'd love to connect about UX, design, development, and creative opportunities.</p><div class="actions"><a class="button primary" href="mailto:clairejw236@gmail.com">Send an email ↗</a><a class="button secondary" id="linkedin-link" href="#contact" hidden>LinkedIn ↗</a><a class="button secondary" id="github-link" href="#contact" hidden>GitHub ↗</a></div></section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><span>© <span id="year"></span> Claire White</span><span>Designed with intention. Built with care.</span><a href="#home">Back to top ↑</a></div></footer>
+  <dialog id="project-dialog" class="project-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><a class="brand" href="#home" id="dialog-home">CW<span class="brand-dot">.</span></a><button class="close-dialog" type="button" aria-label="Close project">Close ×</button></div><div id="dialog-content"></div></dialog>
+</body>
+</html>
